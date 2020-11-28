@@ -12,7 +12,7 @@ import json
 import requests
 
 
-print('Loading your AI personal assistant - G One')
+print('Loading your AI personal assistant - Cubo')
 
 engine=pyttsx3.init('sapi5')
 voices=engine.getProperty('voices')
@@ -50,7 +50,7 @@ def takeCommand():
             return "None"
         return statement
 
-speak("Loading your AI personal assistant G-One")
+speak("Loading your AI personal assistant Cubo")
 wishMe()
 
 
@@ -64,8 +64,8 @@ if __name__=='__main__':
             continue
 
         if "good bye" in statement or "ok bye" in statement or "stop" in statement:
-            speak('your personal assistant G-one is shutting down,Good bye')
-            print('your personal assistant G-one is shutting down,Good bye')
+            speak('your personal assistant Cubo is shutting down,Good bye')
+            print('your personal assistant Cubo is shutting down,Good bye')
             break
 
 
